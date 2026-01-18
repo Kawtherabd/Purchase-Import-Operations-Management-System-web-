@@ -1,0 +1,605 @@
+aside{
+    z-index: 9999;
+    
+    /*max-width: 290px;
+    max-height: 100%;
+    overflow: auto;*/
+}
+.sidbar{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 260px;
+    height: 100vh;
+    background:  #211f25; 
+    transition: width 0.4s;
+    z-index: 9999;
+    
+}
+
+.sidbar header{
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+
+.sidbar header img {
+    height: 90px;
+    width: 150px;
+    margin-left: 24px;
+    margin-right: 14px;
+    margin-top: 15px;
+    object-fit: contain;
+}
+
+/*button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}*/
+
+.iconcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconcenter img{
+    margin-top: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.iconcenter p {
+    margin-top: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Buttons{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.Accueil {
+    display: block;
+    width: 260px;
+    height: 50px;
+    color: white;
+    margin: 0px;
+    display: flex;
+    display: inline;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+.Accueilacheteur {
+    display: block;
+    width: 260px;
+    height: 45px;
+    color: white;
+    margin: 0px;
+    display: flex;
+    display: inline;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.Accueil:hover {
+    background-color: #3c3a48;
+  }
+  .Accueilacheteur:hover {
+    background-color: #3c3a48;
+  }
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 8px;
+    display: inline;
+}
+.Accueil p{
+    display: inline;
+}
+.Accueilacheteur{
+    display: inline;
+}
+.icon2{
+    width: 25px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 8px;
+    display: inline;
+    border-radius: 10%;
+
+}
+.icon3{
+width: 27px;
+height: 25px;
+border-radius: 10%;
+margin-left: 8px;
+display: inline;
+
+
+}
+.Accueil:active,
+.Accueil:focus {
+    background-color:  #3c3a48;/* Couleur lorsque le bouton est actif */
+  }
+  .Accueilacheteur:active,
+  .Accueilacheteur:focus {
+      background-color:  #3c3a48;/* Couleur lorsque le bouton est actif */
+    }
+
+
+
+
+.navacc{
+    background-color:#211f25 ;
+    /*background-color:#302c36;*/
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+  z-index: -2;
+    /*position: absolute;*/
+    
+    
+}
+.Accueilassist1{
+    display: flex;
+    background-color:#d8eedb;   
+    width: 100%;
+  height: 100vh;
+    flex-direction: column; 
+    /*position: relative;*/
+    margin: 0;
+    
+}
+.Accueilassist1admin{
+    display: flex;
+    background-color:#d8eedb;   
+    width: 100%;
+  height: 100vh;
+    flex-direction: column; 
+    /*position: relative;*/
+    margin: 0;
+}
+
+
+.Accueilassist{
+    background-color:#d8eedb;   
+    height: 100vh;
+    width: 100%;
+    flex-direction: column; 
+    overflow: auto;
+    
+  
+    /*position: relative;*/
+}
+
+.pAccuei{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eefff1;       /*#9ceca6 ;*/
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 280px;
+    border-color:white;  /*#488651;*/
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    
+
+}
+
+.pAccuei p{
+    color: black;
+    font-size: 20px;  
+    
+}
+
+.caree{
+    display: flex;
+    margin-left: 270px;
+    margin-top: 100px;
+    
+}
+
+/*
+1D3E92
+368440
+*/
+
+.caree1{
+   background-color:#1D3E92;
+   border-color: #132a64;
+   border-style: solid;
+   height: 200px;
+   width: 350px;
+   margin-right: 30px;
+   border-radius: 20px;
+
+}
+.caree2{
+    background-color:#368440;
+    border-color: #296431;
+    border-style: solid;
+    height: 200px;
+    width: 350px;
+    margin-right: 30px;
+    border-radius: 20px;
+ 
+ }
+
+ .caree li{
+    color: white;
+
+ }
+
+ .Buttons1{
+    display: flex;
+    /*display: inline-block;*/
+    justify-content: right;
+    align-items: right; 
+}
+.Accueil1 {
+    width: 60px;
+    height: 70px;
+    color: white;
+    margin: 0px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+
+}
+
+.Accueil1:hover {
+    background-color: #3c3a48;
+  }
+  .Accueil1:active,
+.Accueil1:focus {
+    background-color:  #3c3a48;/* Couleur lorsque le bouton est actif */
+  }
+
+
+  .interface {
+    display: none;
+  }
+  
+  .interface.active {
+    display: block;
+  }
+
+
+.essey{
+    font-size: 100px;
+    color: #132a64;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-color:white;  
+    border-width: 1px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+
+  .pAccueitable{
+    display: flow-root; 
+    align-items: center;
+    justify-content: center;
+    background-color: #eefff1;       /*#9ceca6 ;*/
+    
+    margin-right: 10px;
+    margin-left: 380px;
+    border-color:white;  /*#488651;*/
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    
+
+}
+
+.success{
+    background-color: #368440;
+    border: #368440;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15%;
+    color: white;
+    
+}
+
+.success:hover{
+    background-color:#71ad79;
+
+}
+.successup{
+    background-color: rgb(159, 25, 25);
+    border: rgb(121, 19, 19);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15%;
+    color: white;
+}
+.successup:hover{
+    background-color: rgb(167, 71, 71);
+
+}
+.successmod{
+    background-color: rgb(25, 25, 85);
+    border:rgb(16, 16, 58);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15%;
+    color: white;
+}
+.successmod:hover{
+    background-color: rgb(44, 44, 73);
+
+}
+.butend{
+    display: flex;
+    justify-content: end;
+}
+
+.butend1{
+    display: flex;
+    justify-content: center;
+    
+}
+.successedera{  
+    background-color: rgb(159, 25, 25);
+    border:  rgb(159, 25, 25);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15%;
+    color: white;
+}
+.successedera:hover{
+    background-color:#ad7070;
+}
+
+.annul {
+    background-color:white;
+    border:  white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15%;
+    color: black;
+    
+}
+.annul:hover{
+    background-color: rgb(113, 116, 116) ;
+}
+
+.success1{
+    background-color:rgb(25, 25, 85);
+    border: rgb(25, 25, 85);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15%;
+    color: white;
+    
+}
+
+.success1:hover{
+    background-color:rgb(72, 72, 123);
+
+}
+
+
+.butcentr{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.search-box {			/*Valeurs de la boîte de recherche*/
+	position: absolute;
+	height: 50px;
+    margin-right: 10px;
+    margin-left: 750px;
+	transform: translate(-50%,-50%);
+	background:  #eefff1;		/*Fond d'écran de la boîte de recherche*/
+			/*Hauteur de 40 pixels*/
+	border-radius: 40px;
+	
+}
+.search-box:hover > .search-txt {			/*Lorsque la sourie passe par dessus la boîte de recherche, la barre de texte prend les valeurs suivantes*/
+	width: 240px;		/*Lorsque la sourie passe sur la boîte de recherche, la barre de texte prend une largeur de 240 pixels*/
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn {			/*Lorsque la sourie passe par dessus la boîte de recherche, le bouton de recherche prend les valeurs suivantes*/
+	background: white;		/*Lorsque la sourie est sur la boîte de recherche, le fond d'écran du bouton devient blanc*/
+}
+.search-btn {		/*Valeurs par défault du bouton de recherche*/
+	color: #3f9b4c;		/*Couleur de l'îcone dans le bouton*/
+	float: right;		/*Placé à droite*/
+	width: 40px;		/*Hauteur de 40 pixels*/
+	height: 40px;		/*Largeur de 40 pixels*/
+	border-radius: 50%;
+	background:   #eefff1;		/*Fond d'écran du bouton*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;		/*Temps de transition de son changement d'état*/
+}
+.search-txt {			/*Valeurs par défault de la barre de texte*/
+	border: none;		/*Aucun bord*/
+	background: none;		/*Aucun fond d'écran*/
+	outline: none;
+	float: left;		/*Placé à gauche de la boîte de recherche*/
+	padding: 0;
+	color: black;		/*Couleur du texte tapé dans la barre*/
+	font-size: 16px;
+	transition: 0.4s;		/*Temps de transition de son changement d'état*/
+	line-height: 40px;		/*Taille du texte*/
+	width: 0px;		/*Largeur*/
+}
+
+
+.formdiv{
+    height: 250px;
+    width: 500px;
+    background-color: #1D3E92;
+    align-items: center;
+}
+
+
+
+#overlay {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
+    
+  }
+  
+  #formWrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 20px;
+    display: none;
+    z-index: 1000;
+    max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  
+  }
+
+  #overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    
+    
+  }
+  
+  #formWrapper2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 20px;
+    display: none;
+    z-index: 1000;
+    max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  
+  }
+
+  
+  .divform{
+    background-color:#211f25;  
+    border-color:white ;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    z-index: 9999;
+
+  }
+  .divformedera{
+    background-color:#211f25;  
+    border-color:white ;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    z-index: 9999;
+    padding: 15px;
+
+  }
+
+  .formitem p{
+
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  .forminput{
+         border-radius: 20px;
+  }
+
+  .forminputlong{
+    border-radius: 20px;
+    width: 300px;
+      overflow-x: auto;
+      white-space: nowrap;
+      
+}
+
+.textarea{
+    display: flex;
+     justify-content: center;
+
+} 

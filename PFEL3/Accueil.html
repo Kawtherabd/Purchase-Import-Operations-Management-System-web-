@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Accueil.css">
+    <title>Accueil</title>
+</head>
+
+
+<body>
+
+  <video id="video-background" autoplay muted loop>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <nav>
+    <div class="logo">
+      <img src="Logo_Algérie_Télécom.svg.png" class="mini-logo">
+      <p> Toujours plus proche</p>
+    </div>
+
+    
+    <div class="menu">
+      <ul>
+                  <li class="activ"><a href="#">Accueil</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <Li><a href="AdminAUT.php">Admin</a></Li>
+      </ul>
+    </div>
+
+    <div class="toggle"></div>
+  </nav>
+
+  
+  
+      
+
+
+
+    <div class="center-content">
+      <h1>Suivi des opération d'importation</h1>
+          <a href="Employe.php">
+             <button>S'authetifier</button>
+          </a>
+    </div>
+
+  <script>
+    const toggleButton = document.querySelector('.toggle');
+    const menu = document.querySelector('.menu');
+
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
